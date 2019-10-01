@@ -1,0 +1,9 @@
+{
+    "azureFunctions.deploySubpath": "azure-function-py.zip",
+    "azureFunctions.pythonVenv": "azure-py",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~2",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.preDeployTask": "func: pack",
+    "python.pythonPath": "azure-py/bin/python3.7"
+}
